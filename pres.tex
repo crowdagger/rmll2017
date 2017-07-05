@@ -1,0 +1,409 @@
+\documentclass[11pt]{beamer}
+
+\usetheme{default}
+
+\usepackage{graphics}
+\usepackage{url}
+\usepackage[francais]{babel}
+\usepackage{tabularx}
+\usepackage{fontspec}
+\usepackage{xunicode}
+%\usepackage[utf8]{inputenc}
+%\usepackage{eurosym}
+\usepackage{multimedia}
+
+
+%\usepackage[francais]{babel}
+
+
+\author{Lizzie Crowdagger}
+\title{Les licences libres pour de la fiction\\Intérêt et impact pour les auteurs et autrices}
+
+\setbeamertemplate{navigation symbols}{}
+
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{Qui je suis}
+  \begin{itemize}
+  \item J'écris des livres : \url{http://crowdagger.fr}
+  \item Certains sont libres % \includegraphics[height=0.5cm]{cc.png}
+    \begin{center}
+%     \begin{tabular}{c c}
+%      \includegraphics[height=4cm]{endr.png} &
+%     \includegraphics[height=4cm]{sz.png}
+%
+%    \end{tabular}
+    \end{center}
+    \url{https://github.com/crowdagger/textes}
+  \item Je programme aussi un peu
+    \begin{itemize}
+    \item Crowbook : \url{https://github.com/lise-henry/crowbook}
+%    \item \includegraphics[height=1cm]{rust.jpg}
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Plan}
+  \tableofcontents
+\end{frame}
+
+\section{Le libre est-il adapté à la fiction ?}
+
+\begin{frame}
+  \frametitle{Spécificités de la fiction}
+  \begin{itemize}
+  \item Je vais surtout parler romans et un peu BD
+  \item Pas d'aspect fonctionnel
+  \item Un auteur unique (en général) ou nombre très limité
+  \item Caractère figé de l'œuvre
+  \item Qu'est-ce qu'un livre ?
+    \begin{itemize}
+    \item Le texte brut ?
+    \item La version finale, mise en page, avec couverture, imprimée
+      ou numérique ?
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Qu'est-ce que le libre ?}
+  %% \begin{center}
+  %%   \includegraphics[height=3cm]{gnu.jpg}
+  %% \end{center}
+  \begin{enumerate}
+    \setcounter{enumi}{-1}
+    \item la liberté d'exécuter le programme comme vous voulez, pour n'importe quel usage ;
+    \item la liberté d'étudier le fonctionnement du programme, et de
+      le modifier pour qu'il  effectue vos tâches informatiques comme vous le souhaitez ;
+    \item la liberté de redistribuer des copies, donc d'aider votre
+      voisin ;
+    \item la liberté de distribuer aux autres des copies de vos versions modifiées.
+  \end{enumerate}
+\url{https://www.gnu.org/philosophy/free-sw.fr.html}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Le libre est-il adapté à la fiction ?}
+    \begin{enumerate}[<+->]
+    \setcounter{enumi}{-1}
+  \item
+      la liberté d'exécuter le programme comme vous voulez, pour
+      n'importe quel usage
+      %% \begin{itemize}[<+->]
+      %% \item \includegraphics[height=1cm]{uxam.jpg}
+      %% \end{itemize}
+    
+    \item la liberté d'étudier le fonctionnement du programme, et de
+      le modifier pour qu'il  effectue vos tâches informatiques comme
+      vous le souhaitez
+      %% \begin{itemize}[<+->]
+      %% \item \includegraphics[height=1cm]{uxam.jpg}
+      %% \end{itemize}
+    \item la liberté de redistribuer des copies, donc d'aider votre
+      voisin
+      %% \begin{itemize}[<+->]
+      %% \item \includegraphics[height=1cm]{happy.jpg}
+      %% \end{itemize}
+    \item la liberté de distribuer aux autres des copies de vos
+      versions modifiées.
+      %% \begin{itemize}[<+->]
+      %% \item \includegraphics[height=1cm]{uxam.jpg}
+      %% \end{itemize}
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Pourquoi le libre ?}
+  \begin{itemize}
+  \item Le logiciel libre n'est « sorti de nul part »
+  \item Il formalise des usages prééxistants
+  \item Distribution du code source, adaptation du logiciel
+  \item « Propriétarisation » du logiciel
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Usages dans la fiction}
+    \begin{itemize}
+    \item Copie
+      \begin{itemize}
+      \item Piratage
+      \end{itemize}
+    \item Modification de l'œuvre existante
+      \begin{itemize}
+      \item Édition
+      \item Préface, postface
+      \item Version illustrée
+      \end{itemize}
+    \item Adaptation de l'œuvre existante
+      \begin{itemize}
+      \item Traduction (autre langue ou autre format)
+      \item Lecture, théâtre, cinéma, ...
+      \end{itemize}
+    \item Inspiration de l'œuvre existante
+      \begin{itemize}
+      \item Fanfictions
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Intérêt pour les auteurs ?}
+  \begin{itemize}
+  \item Le libre permet d'autoriser certains usages ou de leur donner
+    un cadre formel plutôt qu'une tolérance (fanfiction)
+    \item Pour le logiciel, le libre a un intérêt pour le programmeur
+      (ou le programme)
+      \begin{itemize}
+      \item Avoir de l'aide
+      \item Modèle simple de collaboration entre contributeurs
+      \end{itemize}
+    \item Pour de la fiction, c'est plus compliqué
+      \begin{itemize}
+      \item Pas d'adaptation à un besoin
+      \item Généralement une œuvre a un seul auteur
+      \item Corrections : pas besoin de licence libre
+      \item Adaptations correspondent plus à de nouvelles œuvres
+      \item Aide la diffusion
+      \item N'aide pas à terminer son roman
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Conclusion provisoire}
+  \begin{itemize}
+  \item Oui, le libre a un intérêt pour la fiction
+  \item Et pas juste libre diffusion
+  \item Permet un certain nombre d'usages
+  \item Mais relativement peu d'intérêt pour produire une œuvre finie
+  \item Probablement pas promis au même avenir que le logiciel
+    libre/open-source
+  \item Sauf projets plus collaboratifs
+    \begin{itemize}
+    \item univers large
+    \item jeux de rôle
+    \item fictions interactives
+    \item transmedia
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+
+\section{Gagner de l'argent avec des fictions libres ?}
+
+\begin{frame}
+  \frametitle{Modèle « classique » (éditeur)}
+    \begin{itemize}
+    \item L'auteur cède ses droits à l'éditeur 
+    \item Demande (souvent) d'exclusivité
+    \item En échange, l'éditeur rémunère l'auteur (droits d'auteur, avance)
+    \item En théorie, pas d'incompatibilité avec le libre
+    \item En pratique, oublier la plupart des éditeurs si l'on diffuse
+      son texte sous une licence libre
+      \begin{itemize}
+      \item (ou si on le diffuse tout court)
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Auto-édition}
+  Auto-édition ou auto-publication : l'auteur publie son texte lui-même
+  \begin{itemize}
+  \item Numérique
+    \begin{itemize}
+    \item Diffuser sur son propre site et demander don 
+    \item Vendre sur des plate-formes
+    \item En pratique, l'omniprésence d'Amazon fait que le libre n'est
+      pas vraiment un frein
+    \end{itemize}
+  \item Papier
+    \begin{itemize}
+    \item Impression à la demande ou imprimer des exemplaires 
+    \item D'un côté, très compatible avec le libre
+    \item Mais sans éditeur, la distribution en librairie est très difficile
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Financement participatif}
+    \begin{itemize}
+    \item Pour un projet précis
+    \item Régulier (Patreon, Tipeee)
+    \item Alternative peut sembler intéressante pour projet libre
+    \item Nécessité d'avoir déjà une audience
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Gagner de l'argent avec de la fiction libre ?}
+    \begin{itemize}
+    \item Pas impossible
+    \item Le problème n'est pas tant que l'œuvre soit aussi disponible gratuitement
+    \item ... mais que ça coupe des possibilités de trouver un éditeur
+    \item En plus de l'aspect financier, ça peut bloquer la diffusion
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Faut-il pouvoir vivre de son art ?}
+    \begin{itemize} 
+    \item Tout le monde est devenu un peu créateur
+    \item Différence loisir/travail 
+    \item « La plupart des écrivains ont un métier à côté » 
+    \item Chômage de masse
+    \item On nous vend de plus en plus la possibilité de gagner un
+      revenu d'appoint avec sa « passion »
+    \item Auto-entrepreneuriat
+    \item Position perso :
+      \begin{itemize}
+      \item Mieux partager le travail nécessaire
+      \item Que tout le monde ait un revenu décent
+      \item Que tout le monde puisse créer 
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\section{Le libre, porte ouverte à l'exploitation ?}
+
+\begin{frame}
+  \frametitle{Les licences libres favorisent-elles l'exploitation ?}
+    \begin{itemize}
+    \item Conflits récurrents libristes/auteurs
+    \item Exemple : polémique autour de Pepper \& Carrot
+      \begin{itemize}
+      \item BD de David Revoy
+      \item Licence Creative Commons Attribution
+      \item Financement participatif (Patreon/Tipeee)
+      \item Repris par Glénat
+      \item En échange de contribution relativement faible par rapport
+        aux tarifs habituels
+        \end{itemize}
+    \end{itemize}
+            \begin{center}
+    %% \begin{tabular}{c c}
+    %%   \includegraphics[height=3cm]{pepper_carrot.jpg} &
+    %%   \includegraphics[height=3cm]{pepper_carrot_2.jpg}
+    %% \end{tabular}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Pas vraiment besoin de licence libre}
+    \begin{itemize}
+    \item En pratique, des éditeurs peu scrupuleux n'ont pas besoin de licence libre
+      pour piller des auteurs
+    \item Édition à compte d'auteur (l'auteur paie pour être édité)
+    \item Pas de droits d'auteurs
+    \item Beaucoup de postulants, peu d'élus $\rightarrow$ permet les abus
+    \end{itemize}
+    %% \begin{center}
+    %% \includegraphics[height=3cm]{manuscrits.jpg}
+    %% \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Le libre est-il attractif pour un requin ?}
+    \begin{itemize}
+    \item Pepper \& Carrot : la publication avec l'accord de l'auteur
+    \item Contrat d'édition :
+      \begin{itemize}
+      \item L’auteur garantit à l’éditeur la jouissance entière et libre de toutes servitudes des droits cédés contre tous troubles, revendications et évictions quelconques. Il déclare notamment que son œuvre est originale, ne contenant ni emprunt à une création protégée par la propriété intellectuelle, ni propos à caractère diffamatoire qui seraient susceptibles d’engager la responsabilité de l’éditeur.
+      \end{itemize}
+    \item Licence libre (Creative Commons) :
+      \begin{itemize}
+      \item SAUF ACCORD CONTRAIRE CONVENU PAR ECRIT ENTRE LES PARTIES ET DANS LA LIMITE DU DROIT APPLICABLE, L’OFFRANT MET L’ŒUVRE A DISPOSITION DE L’ACCEPTANT EN L’ETAT, SANS DECLARATION OU GARANTIE D’AUCUNE SORTE, EXPRESSE, IMPLICITE, LÉGALE OU AUTRE. SONT NOTAMMENT EXCLUES LES GARANTIES CONCERNANT LA COMMERCIABILITE, LA CONFORMITE, LES VICES CACHES ET LES VICES APPARENTS.
+        \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Le libre est-il attractif pour un requin ?}
+  \begin{itemize}
+  \item Potentiellement plus dangereux de publier un texte sans faire
+    signer de contrat
+  \item Par ailleurs, un roman a en général un seul auteur
+  \item Le public connaît plus souvent l'auteur que l'éditeur
+  \item $\rightarrow$ Possibilités de retour de bâton si l'auteur
+    s'estime lésé
+  \item N'empêche pas en soit l'existence de « requins» 
+  \item Mais probablement pratiques plus marginales
+  \end{itemize}
+  %% \begin{center}
+  %%   \includegraphics[height=3cm]{buffy-shark.jpg}
+  %%   \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Une question qui se pose aussi pour le logiciel}
+    \begin{itemize}
+    \item Pas de différence « technique » libre/opensource
+    \item Mais philosophie différence
+    \item Libre : assurer la liberté de l'utilisateur
+    \item Opensource : modèle pratique, permet d'obtenir de meilleurs logiciels
+    \item Peut être un moyen d'utiliser le travail gratuit de contributeurs
+    \item ... puis de réutiliser le code dans un logiciel propriétaire
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Copyleft VS licences permissives}
+  \begin{itemize}
+  \item Licences permissives (type BSD) permette à quelqu'un d'en
+    faire un dérivé propriétaire
+  \item Licence copyleft n'empêche pas quelqu'un de faire de
+      l'argent avec
+    \item Mais évite la main-mise de quelqu'un sur une œuvre dérivée
+    \item Limite de fait l'intérêt en terme d'exploitation
+    \item Les grands barbus se rencontrent
+  \end{itemize}
+  %% \begin{center}
+  %%   \begin{tabular}{c c}
+  %%     \includegraphics[height=2.5cm]{stallman.jpg} & \includegraphics[height=2.5cm]{marx.jpg}
+  %%   \end{tabular}
+  %% \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Conclusion}
+  \begin{itemize}
+  \item Les licences libres peuvent avoir un intérêt pour de la fiction
+  \item Pas aussi primordial que pour le logiciel
+  \item Principal usage reste la copie
+  \item Ne pas s'attendre à des tas de contribution
+  \item Liberté de modification va plutôt permettre des œuvres
+    dérivées ou adaptations
+  \item Pas tant que ça à craindre des licences libres
+  \item Copyleft permet de limiter les « abus » 
+  \item Reste un choix délicat si on veut espérer trouver un éditeur
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Merci!}
+  %% \begin{center}
+  %%   \includegraphics[height=6.5cm]{pipoune.jpg}
+  %% \end{center}
+\end{frame}
+
+
+\end{document}
